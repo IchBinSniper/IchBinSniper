@@ -539,30 +539,176 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
-
-wait(7)
+wait(3)
 
 local args = {
     [1] = "Purchase",
     [2] = {
         ["Mute"] = true,
         ["Type"] = "Ticket",
-        ["Amount"] = 1400,
+        ["Amount"] = 500,
         ["Category"] = "Eggs"
     }
 }
 
 game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
-wait(7)
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
+        ["Amount"] = 500,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
+        ["Amount"] = 100,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
+        ["Amount"] = 100,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
+        ["Amount"] = 100,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
+        ["Amount"] = 100,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+wait(5)
 
 local args = {
     [1] = "Purchase",
     [2] = {
         ["Mute"] = true,
         ["Type"] = "MagicBean",
-        ["Amount"] = 70,
+        ["Amount"] = 10,
         ["Category"] = "Eggs"
     }
 }
 
 game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "MagicBean",
+        ["Amount"] = 10,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "MagicBean",
+        ["Amount"] = 10,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "MagicBean",
+        ["Amount"] = 10,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "MagicBean",
+        ["Amount"] = 10,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "MagicBean",
+        ["Amount"] = 10,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "MagicBean",
+        ["Amount"] = 10,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "MagicBean",
+        ["Amount"] = 10,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
