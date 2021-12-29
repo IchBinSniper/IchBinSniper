@@ -1,16 +1,568 @@
-### Hi there 👋
 
-<!--
-**IchBinSniper/IchBinSniper** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Basic",
+        ["Amount"] = 50,
+        ["Category"] = "Eggs"
+    }
+}
 
-Here are some ideas to get you started:
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+wait(3)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+local args = {
+    [1] = 1,
+    [2] = 1,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+wait(3)
+
+local args = {
+    [1] = 2,
+    [2] = 1,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 3,
+    [2] = 1,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 4,
+    [2] = 1,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 5,
+    [2] = 1,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 1,
+    [2] = 2,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 2,
+    [2] = 2,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 3,
+    [2] = 2,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 4,
+    [2] = 2,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 5,
+    [2] = 2,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 1,
+    [2] = 3,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 2,
+    [2] = 3,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 3,
+    [2] = 3,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 4,
+    [2] = 3,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 5,
+    [2] = 3,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 1,
+    [2] = 4,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 2,
+    [2] = 4,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 3,
+    [2] = 4,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 4,
+    [2] = 4,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 5,
+    [2] = 4,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 1,
+    [2] = 5,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 2,
+    [2] = 5,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 3,
+    [2] = 5,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 4,
+    [2] = 5,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 5,
+    [2] = 5,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 1,
+    [2] = 6,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 2,
+    [2] = 6,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 3,
+    [2] = 6,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 4,
+    [2] = 6,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 5,
+    [2] = 6,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 1,
+    [2] = 7,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 2,
+    [2] = 7,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 3,
+    [2] = 7,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 4,
+    [2] = 7,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 5,
+    [2] = 7,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 1,
+    [2] = 8,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+wait(3)
+
+local args = {
+    [1] = 2,
+    [2] = 8,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 3,
+    [2] = 8,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 4,
+    [2] = 8,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 5,
+    [2] = 8,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 1,
+    [2] = 9,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+wait(3)
+
+local args = {
+    [1] = 2,
+    [2] = 9,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 3,
+    [2] = 9,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 4,
+    [2] = 9,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 5,
+    [2] = 9,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 1,
+    [2] = 10,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+wait(3)
+
+local args = {
+    [1] = 2,
+    [2] = 10,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 3,
+    [2] = 10,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = 4,
+    [2] = 10,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+local args = {
+    [1] = 5,
+    [2] = 10,
+    [3] = "Basic",
+    [4] = 1,
+    [5] = false
+}
+
+game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServer(unpack(args))
+
+wait(7)
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
+        ["Amount"] = 1400,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+wait(7)
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "MagicBean",
+        ["Amount"] = 70,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
