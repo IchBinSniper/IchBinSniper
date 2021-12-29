@@ -542,16 +542,39 @@ game:GetService("ReplicatedStorage").Events.ConstructHiveCellFromEgg:InvokeServe
 wait(3)
 
 local args = {
-    [1] = "Purchase",
-    [2] = {
-        ["Mute"] = true,
-        ["Type"] = "Ticket",
-        ["Amount"] = 500,
-        ["Category"] = "Eggs"
-    }
+    [1] = "Collect",
+    [2] = "Honey"
 }
 
-game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+game:GetService("ReplicatedStorage").Events.BadgeEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = "Collect",
+    [2] = "Honey"
+}
+
+game:GetService("ReplicatedStorage").Events.BadgeEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = "Collect",
+    [2] = "Honey"
+}
+
+game:GetService("ReplicatedStorage").Events.BadgeEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = "Collect",
+    [2] = "Honey"
+}
+
+game:GetService("ReplicatedStorage").Events.BadgeEvent:FireServer(unpack(args))
+
+local args = {
+    [1] = "Collect",
+    [2] = "Honey"
+}
+
+game:GetService("ReplicatedStorage").Events.BadgeEvent:FireServer(unpack(args))
 
 local args = {
     [1] = "Purchase",
@@ -570,6 +593,18 @@ local args = {
     [2] = {
         ["Mute"] = true,
         ["Type"] = "Ticket",
+        ["Amount"] = 500,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
         ["Amount"] = 100,
         ["Category"] = "Eggs"
     }
@@ -602,13 +637,73 @@ local args = {
 
 game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
 
-
 local args = {
     [1] = "Purchase",
     [2] = {
         ["Mute"] = true,
         ["Type"] = "Ticket",
         ["Amount"] = 100,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
+        ["Amount"] = 10,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
+        ["Amount"] = 10,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
+        ["Amount"] = 10,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
+        ["Amount"] = 10,
+        ["Category"] = "Eggs"
+    }
+}
+
+game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
+
+local args = {
+    [1] = "Purchase",
+    [2] = {
+        ["Mute"] = true,
+        ["Type"] = "Ticket",
+        ["Amount"] = 10,
         ["Category"] = "Eggs"
     }
 }
@@ -711,4 +806,3 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Events.ItemPackageEvent:InvokeServer(unpack(args))
-
